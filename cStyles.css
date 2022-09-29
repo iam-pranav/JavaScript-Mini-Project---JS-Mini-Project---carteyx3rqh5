@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 10px;
+}
+.container input {
+  font-size: 25px;
+  border-radius: 10px;
+  text-align: right;
+}
+.btns {
+  display: flex-column;
+}
+.btns button {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
